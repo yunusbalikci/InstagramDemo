@@ -1,0 +1,78 @@
+.container-story ul{
+    display: flex;
+}
+
+.container-story ul li a img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    transition: .6s ease-in-out;
+}
+
+.container-story ul li{
+    margin-right: 20px;
+}
+
+.container-story ul li a{
+    display: block;
+    background-color: white;
+    padding: 4px;
+    border-radius: 100%;    
+}
+
+.outer-layer{
+    position: relative;
+    background: linear-gradient(45deg,gold,fuchsia);
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.ml-3 {
+    position: relative;
+    padding: 4px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.card-img-top {
+    width: 500px;
+    height: 500px;
+}
+
+.container-post {
+    display: flex;
+}
+.post-own {
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+.fa-heart {
+    font-size: 30px; /* Dilediğiniz büyüklükte bir değer seçebilirsiniz */
+}
+
+.fa-comment{
+    font-size: 30px;
+}
+
+.fa-paper-plane{
+    font-size: 30px;
+}
+
+.fa-facebook-messenger{
+    font-size: 30px;
+}
+
+.fa-house{
+    font-size: 30px;
+}
+
+.fa-instagram{
+    font-size: 40px;
+}
+
+.fa-compass{
+    font-size: 30px;
+}
